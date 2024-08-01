@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.healthy-food-section {
+    background-color: #F2D2BD;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.healthy-food-section-headingg {
+    font-size: 20px;
+}
+
+
+
+
+
+.single-service {
+    border: 1px solid #e3e3e3;
+    padding: 40px 30px;
+    background: #F2703D;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+    transition: all 0.4s ease;
+}
+
+.single-service:hover {
+    transform: #F2703D;
+}
+
+.single-service i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ff4a57;
+    text-align: center;
+    transition: all 0.4s ease;
+    font-size: 25px;
+    display: inline-block;
+    color: #ff4a57;
+}
+
+.single-service:hover i {
+    background: #ff4a57;
+    color: #fff;
+    border: 1px solid #ff4a57;
+}
+
+.single-service h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+
+.dark_bg .single-service h4 {
+    color: #fff;
+}
+
+.single-service p {
+    transition: all 0.4s ease;
+    margin-top: 15px;
+}
+
+.dark_bg .single-service p {
+    color: #fff;
+}
